@@ -43,3 +43,4 @@ git add package.json
 git commit -m "Version up to $NEW_VER"
 git tag $NEW_VER
 git push origin $NEW_VER
+npm publish ./
